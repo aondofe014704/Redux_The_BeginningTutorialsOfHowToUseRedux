@@ -1,6 +1,29 @@
 .movie{
-    display: flex;
+    /* display: grid; 
     justify-content: space-around;
-    align-content: center;
-       
+    align-content: center;   
+    width: 230px;
+    column-gap: 20px;  */
+    width: 200px;
+}
+
+.mainWrapper{
+    width: 95vw;
+    display: grid;
+}
+
+.container{
+    display: grid;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-around;
+    /* grid-template-columns: repeat(minmax(4px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    
+}
+
+img{
+    width: 300px;
+    height: 300px;
 }

@@ -1,11 +1,16 @@
 // import Counter from "./components/Counter";
-import NowPlayingMovies from "./components/NowPlayMovies";
+// import NowPlayingMovies from "./components/NowPlayMovies";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./App.css";
+import ROUTES from "./router/router";
+
+const router = createBrowserRouter([
+  ...ROUTES,
+]);
 function App() {
   return (
     <div className="App">
-      <h1>APP</h1>
-      <h1>No Panic</h1>
-      <NowPlayingMovies/>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
