@@ -1,5 +1,5 @@
 
-import NowPlayingMovies from "../components/NowPlayMovies";
+import NowPlayingMovies from "../nowPlaying/NowPlayMovies";
 import Layout from "../layout/Layout";
 import SignUp from "../app/auth/SignUp";
 import Login from "../app/auth/Login";
