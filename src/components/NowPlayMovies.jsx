@@ -1,6 +1,6 @@
 import React from 'react'
 import { useGetAllNowPlayingMoviesQuery } from '../service/api';
-import style from "./NowPlayingMovie.module.css"
+import style from "../components/NowPlayingMovie.module.css"
  
 const img = process.env.REACT_APP_MOVIE_IMAGES
 console.log(img)
@@ -15,7 +15,7 @@ if (isLoading) {
 }
 
 if(isError){
-  return <div><h1>An Error Occured</h1></div>
+  return <div><h1>An Error Occurred</h1></div>
 
 }
 
