@@ -1,7 +1,6 @@
 import React from 'react'
 import { useGetAllNowPlayingMoviesQuery } from '../service/api';
 import style from "../components/NowPlayingMovie.module.css"
- 
 const img = process.env.REACT_APP_MOVIE_IMAGES
 console.log(img)
 
